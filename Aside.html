@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="es">
+<title> Definición de lateral "Aside" </title>
+<head>
+<link rel="shortcut icon" href="graduate.ico">
+<meta charset ="UTF-8">
+<meta name ="Description" content ="Pagina Web desarrollada como un Objeto virtual de información - OVI sobre HTML y CSS3">
+<meta name ="Author" content = "Alejandro Palacios Gomez">
+<meta name ="Keywords" content ="CSS3, html, Paginas web">
+<style>
+*{
+  box-sizing: border-box;
+ }
+body 
+	{
+  		font-family:Franklin Gothic Italic, Franklin Gothic Book;
+  		padding: 20 px; 
+  		background: #005883;
+	}
+
+/* Encabezado*/
+.header 
+	{
+  		padding: 30px;
+  		text-align: Left;
+  		background: #B3B3B3;
+    
+	}
+ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:#fff;
+				color:#000;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#434343;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+.header h1 
+	{
+  		font-size: 48px;
+	}
+.header h2 
+	{
+  		font-size: 48px;
+	}
+
+/* Formato para barra de navegacion*/
+.topnav 
+	{
+  		overflow: hidden;
+  		background-color: #808080;
+	}
+
+/* Formato para ubicacion de botones de barra de navegacion*/
+.topnav a 
+	{
+  		float: left;
+  		display: block;
+  		color: black;
+  		text-align: center;
+  		padding: 25px 35px;
+  		text-decoration: none;
+	}
+
+/* Cambia color al pasar el mouse */
+.topnav a:hover 
+	{
+  		background-color: #005883;
+  		color: black;
+	}
+
+/* Dos columnas que flotan una enseguida de la otra */
+/* Columna izquierda*/
+.leftcolumn 
+	{   
+ 		float: left;
+ 		width: 70%;
+	}
+
+/* Columna derecha */
+.rightcolumn 
+	{
+  		float: left;
+  		width: 30%;
+  		background-color: #005883;
+  		padding-left: 21px;
+	}
+
+/*Tres columnas para el footer*/
+	.columnaizq
+		{
+			float: left;
+			
+			padding-left: 21px;
+		}
+	.columnacent
+		{
+			float: left;
+			
+			padding-left: 21px;
+		}
+	.columnader
+		{
+			float: left;
+			
+			padding-left: 21px;
+			
+		}
+
+/* Transfondo de imagen 1 */
+.TransfondoImg 
+	{
+  		background-color: #ffffff;
+  		width: auto;
+  		float: center;
+  		padding: 17px;
+	}
+
+/* Transfondo de imagen 2 */
+.TransfondoImg1 
+	{
+  		background-color: #B3B3B3;
+  		width: 32%;
+  		float: center;
+  		padding: 21px;
+	}
+
+/* Transfondo de imagen 3 */
+.TransfondoImg3 
+	{
+  		background-color: #B3B3B3;
+  		width: 20%;
+  		float: center;
+  		padding: 21px;
+	}
+/* Transfondo de imagen 4 */
+.TransfondoImg4 
+	{
+  		background-color: #808080;
+  		width: 20%;
+  		float: center;
+  		padding: 21px;
+	}
+
+/* Efecto de tarjeta para articulos */
+.card 
+	{
+  		background-color: white;
+  		padding: 20px;
+  		margin-top: 20px;
+	}
+.card2 
+	{
+  		background-color: white;
+  		padding: 0px 30px 0px;
+  		margin-top: 20px;
+		margin-left:20px;
+		text-align:left;
+		width: 30%;
+		float:left;
+	}
+	
+.card3 
+	{
+  		background-color: white;
+  		padding: 20px;
+		margin-top: 20px;
+		margin-left:0px;
+		width: 200px;
+		height:200px;
+	}
+	.card4 
+	{
+  		background-color: white;
+  		padding: 20px;
+		align: center;
+  		margin-top: 20px;
+		margin-left:20px;
+		width: auto;
+		height: 300px;
+	}
+
+/* limpia flotadores despues de columnas */
+.row:after 
+	{
+  		content: "";
+  		display: table;
+  		clear: both;
+	}
+
+/* Pie de pagina*/
+.footer
+	{
+  		padding: 20px;
+  		text-align: left;
+  		background: #B3B3B3;
+  		margin-top: 20px;
+	}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <img style="float: right; margin:auto;" src="Logo Unad.png" width="12%">
+   <h1>Fase 4</h1>
+  <h2> Fase de Aprobación</h2>
+<ul class="nav">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="2. Conceptos.html">Conceptos</a>
+					<ul>
+						<li><a href="Section.html">Section</a></li>
+						<li><a href="Aside.html">Aside</a></li>
+						<li><a href="Footer.html">Footer</a></li>
+						<li><a href="Article.html">Article</a></li>
+					</ul>
+				</li>
+				<li><a href="3. Recursos.html">Recursos</a>
+				<ul>
+						<li><a href="Imagenes.html">Imagenes</a></li>
+						<li><a href="Videos.html">Videos</a></li>
+				</ul>
+				</li>
+				:<li><a href="4. Autoevaluacion.html">Autoevaluacion</a>
+				<ul>
+						<li><a href="Evaluacion 1.html">Evaluacion 1</a></li>
+						<li><a href="Evaluacion 2.html">Evaluacion 2</a></li>
+						<li><a href="Autoevaluacion Sitio Web.html">Evaluacion del sitio web</a></li>
+				</ul>
+				</li>
+				<li><a href="5. Autor.html">Autor</a></li>
+</div>
+
+<div class="row">
+	<div class="leftcolumn">
+		<div class="card">
+			<h2>Conceptos</h2>
+				<h5>Section, Aside, Article y Footer</h5>
+				<div class="TransfondoImg" ><img src="MP.png" alt="MP" style="height:200px; width: 430px"></div>
+		</div>
+		<div class="card4">
+			<Section> 
+				<img src="html1.png" align=right style="height:150px; width: 300px" >
+				<h2> ASIDE </h2>
+				<p> 
+						La etiqueta <strong>"aside" </strong> define algun contenido ademas del contenido en el que se coloca (como una barra lateral).<br><br>
+						La etiqueta <strong>"aside" </strong> debe estar relacionado indirectamente con el contenido circundante.
+		
+				</p>
+			</section>
+			
+			
+			
+		</div>
+	</div>
+	<div class="rightcolumn">
+		<div class="card">
+			<h2>Twitter Institucional</h2>
+			<div class="TransfondoImg" ><img src="Twitter_Logo_Blue.png" alt="Twitter_Logo_Blue" style="height:200px; width: 200px"></div>
+			<a class="twitter-timeline" data-lang="es" data-width="600" data-height="415" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets de la Universidad UNAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+		</div> 
+	</div>
+</div>
+<div class="row">
+	<div class="leftcolumn">
+			<div class="columnaizq">
+				<div class="card3">
+					<ul>
+						<li><h1>Sitios de Interés</h1></li>
+					</ul>
+				</div>
+			</div>
+			<div class="columnaizq">
+				<div class="card3">
+					<p><a href="https://www.w3schools.com/"><img style="float: left; margin:auto;" src="Logow3.png" width="100%"></a></p>
+				</div>
+			</div>
+			<div class="columnacent">
+				<div class ="card3">
+					<p><a href="https://github.com//"><img style="float: left; margin:auto;" src="LogoGithub.png" width="100%"></a></p>
+				</div>
+			</div>	
+			<div class="columnader">
+				<div class ="card3
+					<ul>
+						<li><p><a href="https://www.unad.edu.co"><img style="float: left; margin:auto;" src="Logo Unad.png" width="80%"></a></div></li>
+					</ul>
+			</div>			
+	</div>
+	<div class="rightcolumn">
+		<div class="card">
+			<h3>Sigueme en Facebook</h3>
+			<p><a href="https://www.facebook.com/Alexpalagomez">Alejandro Palacios En Facebook</a></p>
+			<h3>Sigueme en Instagram</h3>
+			<p><a href="https://www.instagram.com/alejandropalacios8314/">Alejandro Palacios En Instagram</a></p>
+		</div>
+	</div>
+</div>
+<div class="footer">
+	<div class="row">
+			<div class="card2">
+				<p>Referencias Bibliograficas</p>
+				<p>Logo Twitter obtenido de https://about.twitter.com/en_us/company/brand-resources.html</p>
+			</div>
+			<div class ="card2">
+					<p><a href="2. Conceptos.html">* Conceptos</a></p>
+					<p><a href="4. Autoevaluacion.html">* Autoevaluacion</a></p>
+					<p><a href="5. Autor.html">* Autor</a></p>
+			</div>
+			<div class ="card2">
+					<p><a href="https://www.unad.edu.co">Universidad Nacional Abierta y a distancia - UNAD</a></p>
+					<p><a href="https://directorio.unad.edu.co/">Contacto UNAD</a></p>
+					<p><a href="https://informacion.unad.edu.co/">Información UNAD</a></p>
+			</div>
+	</div>
+</div>
+</body>
+</html>
